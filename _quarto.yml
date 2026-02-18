@@ -1,0 +1,14 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Rabih Siddiqui"
+
+format:
+  html:
+    toc: false
+    theme: none
+    css: styles.css
+    include-in-header: includes/head.html
+    include-after-body: includes/after-body.html
