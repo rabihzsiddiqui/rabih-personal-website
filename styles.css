@@ -86,6 +86,8 @@ body {
   font: inherit;
   cursor: pointer;
   backdrop-filter: blur(6px);
+  text-decoration: none;
+  display: inline-block;
 }
 
 .floating-toggle {
