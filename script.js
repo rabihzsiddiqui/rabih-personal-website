@@ -1,4 +1,4 @@
-const root = document.documentElement;
+﻿const root = document.documentElement;
 const toggle = document.getElementById("theme-toggle");
 const key = "rabih-theme";
 
@@ -23,4 +23,29 @@ if (toggle) {
     applyTheme(next);
     localStorage.setItem(key, next);
   });
+}
+
+const path = window.location.pathname;
+const isHome = path.endsWith("/") || path.endsWith("/index.html") || path === "/index.html";
+
+if (isHome) {
+  document.body.classList.add("home-page");
+
+  const sidebar = document.getElementById("quarto-margin-sidebar");
+  if (sidebar) {
+    sidebar.style.display = "none";
+  }
+
+  const content = document.getElementById("quarto-content");
+  if (content) {
+    content.style.display = "block";
+  }
+
+  const doc = document.getElementById("quarto-document-content");
+  if (doc) {
+    doc.style.maxWidth = "980px";
+    doc.style.margin = "0 auto";
+    doc.style.paddingLeft = "1rem";
+    doc.style.paddingRight = "1rem";
+  }
 }

@@ -1,0 +1,11 @@
+---
+title: "Projects"
+---
+
+## Restaurant Rating Analysis Based on Proximity
+
+Analyzed the Yelp Open Dataset in Python and Jupyter to evaluate how distance from university campuses correlates with ratings and customer preference trends.
+
+## V.I.S.A (Visual Impairment and Sensory Aid)
+
+Co-designed an accessibility concept for blind navigation and contributed core hardware direction.

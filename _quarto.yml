@@ -1,14 +1,32 @@
-project:
+﻿project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+  resources:
+    - "Rabih_Siddiqui_Resume.pdf"
+    - "images/**"
 
 website:
   title: "Rabih Siddiqui"
+  navbar:
+    left:
+      - text: "Background"
+        href: background.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Coursework"
+        href: coursework.qmd
+  page-footer:
+    center: "Rabih Siddiqui"
 
 format:
   html:
-    toc: false
-    theme: none
+    theme: cosmo
     css: styles.css
-    include-in-header: includes/head.html
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    link-external-newwindow: true
     include-after-body: includes/after-body.html

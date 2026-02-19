@@ -1,0 +1,83 @@
+﻿---
+title: "Coursework"
+---
+
+## Overview
+
+This page collects my UC San Diego coursework notebooks. Each entry opens a rendered notebook page, so you can read the analysis, code, and visuals in a clean format.
+
+## Assignments
+
+### A2: Pandas and Data Visualization
+
+This assignment builds fluency with the core data-science toolkit: `pandas`, `numpy`, and plotting libraries. I practice importing real datasets, shaping DataFrames, and validating outputs with tests along the way. It is a practical warm-up that turns spreadsheet-style intuition into reproducible Python workflows.
+
+[View notebook](A2_pandas.html){.notebook-link}
+
+### A3: Data Analysis
+
+This notebook moves from messy survey data to a structured analytical pipeline. I clean variables, run exploratory visual checks, and use regression-oriented thinking to test differences across student groups. It reads like an end-to-end mini study, from raw input to interpretable findings.
+
+[View notebook](A3_DataAnalysis.html){.notebook-link}
+
+### A4: Natural Language Processing
+
+This NLP assignment introduces how language gets translated into features machines can analyze. I work through tokenization, stopword handling, and sentiment tasks using NLTK and movie-review text data. The result is a clear first pass at turning unstructured text into measurable signal.
+
+[View notebook](A4_NLP.html){.notebook-link}
+
+## Discussion Workbooks
+
+### D1: Python Introduction and GitHub
+
+This workbook is a fast, hands-on reboot of Python fundamentals in a Jupyter workflow. It revisits core structures, syntax, and problem-solving habits that matter later in data analysis. Think of it as the technical calibration step before the heavier analytics begin.
+
+[View notebook](D1_python.html){.notebook-link}
+
+### D2: Data Wrangling
+
+This notebook focuses on real-world data wrangling where columns are messy and assumptions break quickly. I load raw survey data, standardize formats, and reshape information into analysis-ready tables. It emphasizes the most important data-science truth: clean data is half the project.
+
+[View notebook](D2_wrangling.html){.notebook-link}
+
+### D3: EDA and Data Visualization
+
+Here I use exploratory data analysis to turn questions into visual evidence. The notebook leans on categorical plots and comparison views to test behavioral patterns in the survey data. It is equal parts storytelling and skepticism: make a claim, then check it against the plot.
+
+[View notebook](D3_dataviz.html){.notebook-link}
+
+### DataViz (Alternate Copy)
+
+This is an alternate copy of the EDA and visualization lab. It covers the same analytical direction with categorical plotting and interpretation practice. I keep it available as a reference version for continuity across revisions.
+
+[View notebook](DataViz.html){.notebook-link}
+
+### D4: Case Study - Age in American Politics
+
+This case study examines age representation in American politics using congressional term data. I combine wrangling, context data, and visualization to compare who serves in office against broader population age patterns. It connects technical analysis to a concrete civic question with clear, interpretable outputs.
+
+[View notebook](D4_casestudy_eda.html){.notebook-link}
+
+### D5: Inference
+
+This notebook applies statistical inference to a sports dataset to move beyond descriptive summaries. I clean player-level FIFA data, define hypotheses, and test whether observed patterns are likely to be meaningful. It is where probability and uncertainty become central to the conclusions.
+
+[View notebook](D5_inference.html){.notebook-link}
+
+### D6: Case Study - Inference
+
+This inferential case study explores the link between Pulitzer recognition and newspaper circulation trends. I wrangle the Pulitzer dataset, formulate testable claims, and evaluate the relationship with statistical tools. The emphasis is on careful interpretation, not just significant p-values.
+
+[View notebook](D6_casestudy_inference.html){.notebook-link}
+
+### D7: Text Analysis
+
+This text-analysis lab asks a fun question: which words are most distinctive across presidential inaugural addresses. I use NLTK resources to tokenize, filter, and compare language patterns across speeches. It is a compact example of how historical text can be analyzed with modern data methods.
+
+[View notebook](D7_text.html){.notebook-link}
+
+### D8: Machine Learning
+
+This workbook introduces supervised machine learning with a craft beer dataset. I prepare features, train an SVM classifier, and evaluate performance with confusion matrices and classification metrics. It provides a clean bridge from exploratory analysis to predictive modeling.
+
+[View notebook](D8_ml.html){.notebook-link}

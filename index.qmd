@@ -1,121 +1,67 @@
-[Dark mode](#){#theme-toggle .toggle .floating-toggle role="button" aria-label="Toggle dark mode"}
+﻿---
+title: ""
+title-block: false
+format:
+  html:
+    toc: false
+    body-classes: home-page
+---
 
-::: {.site}
-::: {.hero}
-::: {.hero-layout}
-::: {.hero-copy}
-Rabih Siddiqui
-{.hero-name}
+```{=html}
+<div class="hero home-landing">
+  <div class="hero-left">
+    <img src="images/profile.jpg" class="profile-photo" alt="Portrait of Rabih Siddiqui" />
+    <div class="icon-links">
+      <p>
+        <a href="mailto:rabihzsiddiqui@gmail.com" class="icon-btn"><i class="bi bi-envelope-fill"></i> Email</a>
+        <a href="https://www.linkedin.com/in/rabihsiddiqui/" class="icon-btn"><i class="bi bi-linkedin"></i> LinkedIn</a>
+        <a href="Rabih_Siddiqui_Resume.pdf" class="icon-btn"><i class="bi bi-file-earmark-text-fill"></i> Resume</a>
+      </p>
+    </div>
+  </div>
 
-San Jose, California | US Citizen
-{.eyebrow}
+  <div class="hero-right">
+    <div class="hero-name">Rabih Siddiqui</div>
+    <div class="hero-subhead">San Jose, California | US Citizen</div>
+    <div class="hero-summary">Cognitive Science graduate focused on product testing, user research, and VR/AR hardware feedback.</div>
+    <p>I work at the intersection of user research, product testing, and VR/AR experiences. My background in cognitive science helps me turn product behavior into useful, structured feedback for engineering and UX teams.</p>
 
-Cognitive Science graduate focused on product testing, user research, and VR/AR hardware feedback.
-{.summary}
+    <div class="hero-skills">
+      <div class="hero-skills-title">Skills</div>
 
-::: {.links}
-[rabihzsiddiqui@gmail.com](mailto:rabihzsiddiqui@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/rabihsiddiqui/)
-[Download Resume (PDF)](Rabih_Siddiqui_Resume.pdf)
-:::
-:::
+      <strong>Programming</strong>
+      <div class="skill-pills">
+        <span class="skill-pill">Python</span>
+        <span class="skill-pill">Java</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">HTML</span>
+        <span class="skill-pill">CSS</span>
+        <span class="skill-pill">R</span>
+        <span class="skill-pill">Jamovi</span>
+      </div>
 
-::: {.hero-photo-wrap}
-![Portrait of Rabih Siddiqui](images/profile.jpg){.profile-photo}
-:::
-:::
-:::
+      <strong>Experience</strong>
+      <div class="skill-pills">
+        <span class="skill-pill">Systems Engineering</span>
+        <span class="skill-pill">Object-Oriented Programming</span>
+        <span class="skill-pill">Unit Testing</span>
+        <span class="skill-pill">Product Testing</span>
+        <span class="skill-pill">Research Design</span>
+        <span class="skill-pill">Git</span>
+        <span class="skill-pill">Version Control</span>
+        <span class="skill-pill">Virtual Machines</span>
+      </div>
 
-## About Me
-
-::: {.item .compact}
-I enjoy evaluating emerging consumer technology and translating product experiences into practical, high-quality feedback for engineering and UX teams. My background in cognitive science helps me frame user behavior clearly, especially in VR/AR contexts where hardware, software, and human factors intersect.
-:::
-
-## Education
-
-::: {.item .compact}
-::: {.item-header}
-### University of California, San Diego
-
-B.S. Cognitive Science | Graduated 2024
-:::
-
-Relevant coursework: Research Methods, Neurobiology of Cognition, Data Science in Practice, Neuroanatomy and Physiology, Statistical Analysis, Design of Everyday Things.
-:::
-
-## Experience
-
-::: {.item}
-::: {.item-header}
-### Trusted Tester - Google
-
-September 2021 - Present | Sunnyvale, CA
-:::
-
-- Tested pre-release hardware and software with detailed performance and UX feedback.
-- Completed 70+ product surveys/questionnaires supporting iterative development.
-- Joined mid-fiscal product review calls with Google UX Research Engineers.
-- Maintained strict confidentiality for proprietary programs and materials.
-:::
-
-::: {.item}
-::: {.item-header}
-### User Research Participant - Google
-
-November 2023 - Present | Mountain View, CA
-:::
-
-- Selected repeatedly for paid sessions covering future hardware/software updates.
-- Provided actionable insights to product and UX engineering teams.
-- Tested prototypes while complying with NDA and confidentiality requirements.
-:::
-
-::: {.item}
-::: {.item-header}
-### User Research Participant - Meta
-
-March 2025 - Present | Burlingame, CA
-:::
-
-- Contributed feedback for upcoming Meta Quest features in paid research studies.
-- Invited to Meta's ARVR User Research Community based on high-value contributions.
-- Collaborated with Reality Labs UX researchers using deep VR hardware/software familiarity.
-:::
-
-::: {.item}
-::: {.item-header}
-### VR Prototype QA (Freelance) - KIWI design
-
-December 2020 - August 2024 | Remote
-:::
-
-- Hands-on QA testing for 15 virtual reality accessory hardware prototypes.
-- Partnered with R&D and management teams to align product quality and user satisfaction.
-- Selected to showcase top-grossing Meta Quest accessories at CES 2023.
-:::
-
-## Projects
-
-::: {.item .compact}
-### Restaurant Rating Analysis Based on Proximity
-
-Analyzed the Yelp Open Dataset in Python/Jupyter to evaluate how distance from university campuses correlates with ratings and customer preference trends.
-:::
-
-::: {.item .compact}
-### V.I.S.A (Visual Impairment and Sensory Aid)
-
-Co-designed an accessibility concept for blind navigation and contributed core hardware direction.
-:::
-
-## Skills
-
-::: {.skills-grid}
-**Programming:** Python, Java, JavaScript, HTML, CSS, R, Jamovi
-
-**Experience:** Systems Engineering, OOP, Unit Testing, Product Testing, Research Design, Git, Version Control, Virtual Machines
-
-**Tools:** Figma, Slack, Microsoft Office Suite, Microsoft Teams, Google Workspace, DaVinci Resolve
-:::
-:::
+      <strong>Tools</strong>
+      <div class="skill-pills">
+        <span class="skill-pill">Figma</span>
+        <span class="skill-pill">Slack</span>
+        <span class="skill-pill">Microsoft Office Suite</span>
+        <span class="skill-pill">Microsoft Teams</span>
+        <span class="skill-pill">Google Workspace</span>
+        <span class="skill-pill">DaVinci Resolve</span>
+      </div>
+    </div>
+  </div>
+</div>
+```

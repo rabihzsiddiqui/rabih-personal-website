@@ -1,0 +1,46 @@
+﻿---
+title: "Background"
+---
+
+## Education
+
+### University of California, San Diego
+
+B.S. Cognitive Science, 2024
+
+Selected coursework: Research Methods, Neurobiology of Cognition, Data Science in Practice, Neuroanatomy and Physiology, Statistical Analysis, Design of Everyday Things.
+
+## Experience
+
+### Trusted Tester - Google
+
+September 2021 - Present | Sunnyvale, CA
+
+- Tested pre-release hardware and software with detailed performance and UX feedback.
+- Completed 70+ product surveys and questionnaires supporting iterative development.
+- Joined mid-fiscal product review calls with Google UX Research Engineers.
+- Maintained strict confidentiality for proprietary programs and materials.
+
+### User Research Participant - Google
+
+November 2023 - Present | Mountain View, CA
+
+- Selected repeatedly for paid sessions on future hardware and software updates.
+- Provided actionable insights to product and UX engineering teams.
+- Tested prototypes while complying with NDA and confidentiality requirements.
+
+### User Research Participant - Meta
+
+March 2025 - Present | Burlingame, CA
+
+- Contributed feedback for upcoming Meta Quest features in paid research studies.
+- Invited to Meta's ARVR User Research Community based on high-value contributions.
+- Collaborated with Reality Labs UX researchers using deep VR hardware and software familiarity.
+
+### VR Prototype QA (Freelance) - KIWI design
+
+December 2020 - August 2024 | Remote
+
+- Performed hands-on QA testing for 15 VR accessory hardware prototypes.
+- Partnered with R&D and management teams to align product quality and user satisfaction.
+- Selected to showcase top-grossing Meta Quest accessories at CES 2023.
